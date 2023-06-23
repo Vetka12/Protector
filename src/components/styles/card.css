@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border: 0;}
+a, a:visited{text-decoration: none;}
+ul li{list-style: none;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+.card-block{
+    margin-top: 1.6%;
+    width: 100%;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: inline-flex;
+    background-color: white;
+    height: 220px;
+}
+.first-block{
+    border-right: 2px solid black;
+    display: flex;
+    font-size: 22px;
+    font-family: Georgia, serif;
+    width: 60%;
+}
+.div-img{
+    border: 2px solid rgb(68, 68, 68);
+    display: inline-flex;
+    justify-content: center;
+    width: 130px;
+    height: 155px;
+}
+.logo-name{
+    margin: 2% 1.5% 1.5% 1.5%;
+    font-size: larger;
+    width: 200px ;
+    text-align: center;
+}
+.description{
+    font-size: larger;
+}
+.com-url{
+    color: red;
+    margin-left: 10%;
+}
+.des{
+    margin: 1.5% 2% 2% 0%;
+    padding: 6% 2% 3.5% 2.5%;
+}
+.deses{
+    display: flex;
+    height: 50px;
+}
+.second-block{
+    padding: 1%;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    width: 40%;
+    border-bottom:2px solid #000;
+    height: 70%;
+}
+.base{
+    margin-top: 1%;
+}
+.main-base{
+    color: red;
+}
+.desc-text{
+    margin-left: 10%;
+}
+.desc-type{
+    min-width:110px ;
+}
+.main-desc{
+    min-height: 120px;
+}

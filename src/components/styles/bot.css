@@ -1,0 +1,9 @@
+.bottom{
+    margin: 1.5% 17.5% 1.5% 17.5% ;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    padding-bottom: 1% ;
+    font-size: 38px;
+    font-family: monospace;
+}
