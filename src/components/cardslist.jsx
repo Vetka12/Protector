@@ -1,8 +1,8 @@
 import React from 'react';
 
-const cardslist = ({cards}) => {
+const cardslist = ({ cards }) => {
 
-    return(
+    return (
         <div>
 
         </div>

@@ -1,18 +1,18 @@
 import './styles/card.css';
 import React from 'react';
-import  '../images/zeus.png';
-import logo1 from '../images/zeus.png';
+// import  '../images/zeus.png';
+// import logo1 from '../images/zeus.png';
 
 
 const Card = (props) => {
-    return(
+    return (
         <div className='card-block'>
             <div className='first-block'>
                 <div className='logo-name'>
                     <div className='div-img'>
-                    <img src={logo1}></img>
+                        <img src={props.card.img}></img>
                     </div>
-                    <br/>
+                    <br />
                     {props.card.title}
                 </div>
                 <div className='description'>

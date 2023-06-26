@@ -1,33 +1,49 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	border: 0;
 
 }
 
-*,*:before,*:after{
+*,
+*:before,
+*:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
+:focus,
+:active {
+	outline: none;
+}
 
-nav,footer,header,aside{display: block;}	
-body{
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+body {
 	height: 100%;
-	width: 100%;	
-	font-size: 100%; 
+	width: 100%;
+	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 }
-html{
+
+html {
 	height: 100%;
-	width: 100%;	
-	font-size: 100%; 
+	width: 100%;
+	font-size: 100%;
 	line-height: 1;
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
@@ -35,47 +51,92 @@ html{
 	background-color: rgb(197, 197, 197);
 }
 
-input,button,textarea{font-family:inherit;}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border: 0;}
-a, a:visited{text-decoration: none;}
-ul li{list-style: none;}
-h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+input::-ms-clear {
+	display: none;
+}
 
-.App{
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+.App {
 	margin: 0% 50px 0% 50px;
 	min-width: 1330px;
+	max-width: 1330px;
 	height: 2120px;
 }
-.hat{
+
+.hat {
 	border: 2px solid #555;
 	border-top-width: 0px;
 	background-color: #F9F9F9;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
-.top{
+.entbtn{
+	position: relative;
+	bottom: 107px; left: 1130px;
+	font-size: 30px;
+	font-family: Georgia, serif, bold;
+	background: rgba(210, 210, 210, 1);
+	border-radius: 7px;
+	width: 160px;
+	height: 40px;
+	
+}
+.top {
 	font-family: Georgia, serif, bold;
 	font-size: 45px;
 	height: 60px;
 	display: inline-flex;
 	align-items: center;
-	width: 1320px;
+	width: 100%;
 	justify-content: space-between;
 	border-bottom: 2px solid #555;
 }
-.logo{
+
+.logo {
 	margin: 0% 0% 0% 20px;
 	display: inline-flex;
 	align-items: center;
 }
-.logo-img{
+
+.logo-img {
 	margin: 0% 15px 0% 0%;
 }
-.mid{
-	color:red;
+
+.mid {
+	color: red;
 	font-family: Georgia, serif;
 	font-size: 30px;
 	height: 55px;
@@ -84,27 +145,20 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 	width: 1340px;
 	justify-content: space-between;
 
-   }
-.main{
+}
+
+.main {
 	margin: 0% 0% 0% 40px;
 }
-.sec{
+
+.sec {
 	color: #000;
 	width: 240px;
 	display: inline-flex;
 	align-items: center;
 	margin: 0% 30px 0% 0%;
 }
-.sec-img{
+
+.sec-img {
 	margin: 0% 10px 0% 0%;
 }
-
-
-
-
-
-
-
-
-
-
